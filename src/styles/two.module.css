@@ -10,6 +10,13 @@
     align-items: center;
     gap: 20px;
 }
+.photoDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .containerOne img{
     width: 100px;
     height: auto;
@@ -30,12 +37,16 @@
     gap: 20px;
 }
 .buttonGrp button{
-    min-width: 100px; ;
+    min-width: 150px; ;
 }
 .btn1{
     background-color: #2F58CD;
+    color: #DDE6ED;
+    letter-spacing: 1px;
 }
 .btn2{
     background-color: #0E8388;
+    color:#DDE6ED;
+    letter-spacing: 1px;
 }
 

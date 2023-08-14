@@ -1,0 +1,29 @@
+.designs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    min-height: 90vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px #ffffff;
+    backdrop-filter: blur(15px);
+}
+.nav{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+.nav h2{
+    width: 100%;
+    text-align: center;
+}
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}

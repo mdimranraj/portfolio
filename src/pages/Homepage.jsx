@@ -5,6 +5,7 @@ import One from '../components/One';
 import Two from '../components/Two';
 import Four from '../components/Four';
 import Three from '../components/Three';
+import { Link } from 'react-router-dom';
 
 const Homepage = () => {
   return (
@@ -22,9 +23,13 @@ const Homepage = () => {
                 <div className={styles.three}>
                     <Three/>
                 </div>
+                
                 <div className={styles.four}>
+                <Link to="/designs" >
                     <Four/>
+                </Link>
                 </div>
+                
             </div>
         </div>
     </div>

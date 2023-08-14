@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from '../styles/card.module.css'
-const Card = () => {
+const Card = ({details}) => {
   return (
     <div className={styles.card}> 
-      <img src='dummy.png' alt='Website-Img'/>
+      <img src={details.image} alt='Website-Img'/>
       <div className={styles.cardDescription}>
-        kjshhe ijshi ksi 
+        {details.title}
       </div>
     </div>
   )
