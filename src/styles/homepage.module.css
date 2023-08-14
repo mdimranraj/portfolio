@@ -1,0 +1,77 @@
+.homepage{
+    width: 95%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainFlex{
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.firstRow{
+    width: 100%;
+    min-height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.secondRow{
+    width: 100%;
+    min-height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    min-height: 40vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px #ffffff;
+    backdrop-filter: blur(15px);
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    min-height: 40vh;
+    border-radius: 20px;
+    box-shadow: -2px 2px 8px #ffffff;
+    backdrop-filter: blur(15px);
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    min-height: 40vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px #ffffff;
+    backdrop-filter: blur(15px);
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-height: 40vh;
+    border-radius: 20px;
+    box-shadow: -2px 2px 8px #ffffff;
+    backdrop-filter: blur(15px);
+}

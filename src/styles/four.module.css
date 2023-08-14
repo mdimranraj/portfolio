@@ -1,0 +1,10 @@
+.four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.heading{
+    margin: 0 0 20px;
+}

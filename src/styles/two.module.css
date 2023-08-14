@@ -1,0 +1,41 @@
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.containerOne img{
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+}
+.containerTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #DDE6ED;
+}
+.buttonGrp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.buttonGrp button{
+    min-width: 100px; ;
+}
+.btn1{
+    background-color: #2F58CD;
+}
+.btn2{
+    background-color: #0E8388;
+}
+

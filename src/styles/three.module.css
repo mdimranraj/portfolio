@@ -1,0 +1,20 @@
+.three{
+    margin: 10px;
+}
+
+.three h3{
+    margin: 0 0 20px;
+}
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.mainContainer img{
+    width: 40px;
+    height: 40px;  
+}

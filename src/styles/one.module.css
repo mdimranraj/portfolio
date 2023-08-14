@@ -1,0 +1,11 @@
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: #DDE6ED;
+}
+.one h1{
+    color:#CBE4DE;
+}
