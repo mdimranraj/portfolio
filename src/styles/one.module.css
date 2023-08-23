@@ -1,11 +1,42 @@
 .one{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
+    justify-content: flex-start;
+    gap: 10px;
+    /* align-items: center; */
+    margin: 16px;
     color: #DDE6ED;
 }
 .one h1{
     color:#CBE4DE;
 }
+.typeHead{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.typingText {
+    width: 26ch;
+    animation: typing 4s steps(26) infinite alternate, blink .6s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }

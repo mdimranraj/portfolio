@@ -5,6 +5,29 @@
     align-items: center;
     overflow: hidden;
 }
+
+.titleBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.extend{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
 .heading{
-    margin: 0 0 20px;
+    width: 60%;
+    text-align: end;
+}
+.extendBtn{
+    width: 40%;
+    text-align: end;
+}
+.extendText{
+    text-decoration: none;
+    color: antiquewhite;
 }

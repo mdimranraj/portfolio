@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    min-height: 90vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px #ffffff;
+    backdrop-filter: blur(15px);
+}
+.nav{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav h2{
+    width: 100%;
+    text-align: center;
+}
+
+.nav button{
+    width: 100px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.images img{
+    width: 180px;
+    height: 120px;
+    flex: 1;
+    flex-basis: 180px;
+}
+
+.detailsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about{
+    width: 30%;
+}
+.techStack{
+    width: 20%;
+}

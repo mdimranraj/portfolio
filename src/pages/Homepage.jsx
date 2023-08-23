@@ -15,19 +15,21 @@ const Homepage = () => {
                 <div className={styles.one}>
                     <One/>
                 </div>
+                
                 <div className={styles.two}>
+                    <Link to='/aboutme'>
                     <Two/>
+                    </Link>
                 </div>
+                
             </div>
             <div className={styles.secondRow}>
                 <div className={styles.three}>
                     <Three/>
                 </div>
                 
-                <div className={styles.four}>
-                <Link to="/designs" >
+                <div className={styles.four}>  
                     <Four/>
-                </Link>
                 </div>
                 
             </div>
