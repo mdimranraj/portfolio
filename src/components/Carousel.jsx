@@ -11,7 +11,7 @@ function Carousel(){
             designlinks.map((currObject)=>{ return (
                 <Link to={`/projectdetails/${currObject.id}`}>
                 <div className={styles.slide} key={currObject.id}>
-                    <img src={currObject.image} alt='img'/>
+                    <div className={styles.imgHolder}><img className={styles.slideImg} src={currObject.image} alt='img'/></div>
                     <div>{currObject.title}</div>
                 </div>
                 </Link>

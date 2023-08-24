@@ -1,11 +1,13 @@
 import React from 'react'
 import styles from '../styles/two.module.css';
+import { Link } from 'react-router-dom';
 
 const Two = () => {
   return (
     <div className={styles.two}>
         <div className={styles.containerOne}>
             <div className={styles.photoDiv}>
+                <Link to='/aboutme'>
                 <div className={styles.flipBox}>
                   <div className={styles.flipBoxInner}>
                     <div className={styles.flipBoxFront}>
@@ -16,6 +18,7 @@ const Two = () => {
                     </div>
                   </div>
                 </div>
+                </Link>
 
               {/* <img src='imran.png' alt='imran-photo'/> */}
               <h6>Md Imran Raj</h6>
@@ -23,7 +26,7 @@ const Two = () => {
             
             <div className={styles.buttonGrp}>
               <button className={`${styles.btn1} btn btn-info`} type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Languages</button>
-              <button className={`${styles.btn2} btn btn-info`} type="button" >Skills</button>
+              <a href='../resume/resume9.pdf' download='ImranResume.pdf'><button className={`${styles.btn2} btn btn-info`} type="button" >Download Resume</button></a>
             </div>
         </div>
         <div className={styles.containerTwo}>

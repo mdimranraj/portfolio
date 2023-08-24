@@ -17,9 +17,9 @@ const Homepage = () => {
                 </div>
                 
                 <div className={styles.two}>
-                    <Link to='/aboutme'>
+                    
                     <Two/>
-                    </Link>
+                    
                 </div>
                 
             </div>
