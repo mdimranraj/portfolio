@@ -11,12 +11,12 @@
 }
 .imageHolder{
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .card img{
     width: 300px;
     height: 200px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .cardDescription{
     display: flex;
@@ -25,7 +25,7 @@
     width: 300px;
     height: 50px;
     background-color:#0E8388;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 15px;
     
     position: relative;
@@ -43,7 +43,7 @@
     right: 0;
     bottom: 0;
     top: 0;
-    border-radius: 20px;
+    border-radius: 10px;
     
     transform: scaleX(0);
     transition: transform 0.3s ease-out ;
@@ -65,5 +65,25 @@
         transition: 0.5s;
         transform: scale(1.3);
     }
+}
+
+
+@media (max-device-width: 640px){
+    .card{
+        flex: 1;
+        flex-basis: 200px;
+    }
+    .card img{
+        width: 150px;
+        height: 100px;
+    }
+    .cardDescription{
+        width: 150px;
+        height: 40px;
+    }
+    .title{
+        font-size: 0.9rem;
+    }
+
 }
 

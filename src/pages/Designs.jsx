@@ -15,7 +15,7 @@ const Designs = () => {
         </div>
         
         <div className={styles.mainContainer}>
-            {designlinks.map((eachObject)=>{return <Link to={`/projectdetails/${eachObject.id}`} style={{flex:'1',flexBasis:'300px'}}><Card key={eachObject.id} details={eachObject}/></Link>})}
+            {designlinks.map((eachObject)=>{return <Link to={`/projectdetails/${eachObject.id}`} style={{flex:'1'}}><Card key={eachObject.id} details={eachObject}/></Link>})}
         </div>
     </div>
   )
