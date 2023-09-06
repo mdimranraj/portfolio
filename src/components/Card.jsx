@@ -5,9 +5,12 @@ const Card = ({details}) => {
   return (
     <div className={styles.card}> 
     
-      <img src={details.image} alt='Website-Img'/>
+      <div className={styles.imageHolder}>
+        <img className={styles.image} src={details.image} alt='Website-Img'/>
+      </div>
+      
       <div className={styles.cardDescription}>
-        {details.title}
+        <div className={styles.title}>{details.title}</div>
       </div>
     </div>
   )

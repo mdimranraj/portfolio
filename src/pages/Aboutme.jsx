@@ -6,7 +6,7 @@ const Aboutme = () => {
   return (
     <div className={styles.aboutme}>
         <div className={styles.nav}>
-            <Link to="/"><button type="button" class="btn btn-secondary"> Back </button></Link>
+            <Link to="/"><i class={`fa-solid fa-house ${styles.home}`}></i></Link>
             <h2>Md Imran Raj</h2>
         </div>
         

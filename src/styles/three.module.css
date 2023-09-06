@@ -7,14 +7,50 @@
 }
 .mainContainer{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
 }
-
-.mainContainer img{
-    width: 40px;
-    height: 40px;  
+.mainContainer i{
+    font-size: 30px;
 }
+.topIcons , .bottomIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    position: absolute;
+    cursor: pointer;
+}
+.topIcons{
+    top: 0;
+    margin: 10px 20px;
+    
+}
+.bottomIcons{
+    bottom: 0;
+    margin: 10px 20px;
+}
+.instagram:hover{
+    color:rgb(255, 0, 115)
+}
+.linkedin:hover{
+    color: rgb(0, 86, 161);
+}
+.facebook:hover{
+    color: #4267B2;
+}
+.gmail:hover{
+    color: rgb(0, 195, 255);
+}
+.github:hover{
+    color: black;
+}
+.twitter:hover{
+    color: #1DA1F2;
+}   
+
+

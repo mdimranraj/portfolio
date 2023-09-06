@@ -28,7 +28,7 @@ const Homepage = () => {
                     <Three/>
                 </div>
                 
-                <div className={styles.four}>  
+                <div className={styles.four}>      
                     <Four/>
                 </div>
                 

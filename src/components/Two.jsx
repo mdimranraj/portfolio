@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from '../styles/two.module.css';
 import { Link } from 'react-router-dom';
 
 const Two = () => {
+
   return (
     <div className={styles.two}>
         <div className={styles.containerOne}>
@@ -26,7 +27,9 @@ const Two = () => {
             
             <div className={styles.buttonGrp}>
               <button className={`${styles.btn1} btn btn-info`} type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Languages</button>
-              <a href='../resume/resume9.pdf' download='ImranResume.pdf'><button className={`${styles.btn2} btn btn-info`} type="button" >Download Resume</button></a>
+              <a target="_blank" href='https://drive.google.com/uc?export=download&id=1zSfliRZIFlZOHW-WBdEKykV1txXAPn68' download='ImranResume.pdf'>
+                <button className={`${styles.btn2} btn btn-info`} type="button" >Download Resume</button>
+              </a>
             </div>
         </div>
         <div className={styles.containerTwo}>

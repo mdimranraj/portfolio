@@ -20,6 +20,13 @@
     width: 100%;
     text-align: center;
 }
+.home{
+    font-size: 30px;
+    color: #CBE4DE;
+}
+.home:hover{
+    color: #294D61;
+}
 .mainContainer{
     display: flex;
     flex-direction: column;

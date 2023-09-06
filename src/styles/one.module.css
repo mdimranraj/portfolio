@@ -6,15 +6,18 @@
     /* align-items: center; */
     margin: 16px;
     color: #DDE6ED;
+   
 }
 .one h1{
     color:#CBE4DE;
+    font-size: 1.8rem;
 }
 .typeHead{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
+    font-size: 1.4rem;
 }
 
 
@@ -25,9 +28,12 @@
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 1em;
+    font-size: 1.6rem;
     font-weight: bold;
   }
+.text{
+    font-size: 1.4rem;
+}
   
   @keyframes typing {
     from {
@@ -40,3 +46,39 @@
       border-color: transparent;
     }
   }
+
+@media (min-device-width: 900px) and (max-device-width: 1024px){
+  .text{
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-device-width: 640px) and (max-device-width: 900px){
+  .one h1{
+    font-size: 1.6rem;
+  }
+  .typeHead{
+    font-size: 1.2rem;
+  }
+  .typingText{
+    font-size: 1.4rem;
+  }
+  .text{
+    font-size: 1rem;
+  }
+}
+  
+@media (max-device-width: 640px){
+  .one h1{
+    font-size: 1.4rem;
+  }
+  .typeHead{
+    font-size: 1rem;
+  }
+  .typingText{
+    font-size: 1.2rem;
+  }
+  .text{
+    font-size: 1rem;
+  }
+}

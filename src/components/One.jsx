@@ -6,7 +6,7 @@ const One = () => {
     <div className={styles.one}>
           <h1>Hey,</h1>
           <h3 className={styles.typeHead}><div>I'm a </div><div className={styles.typingText}>Full Stack Web Developer.</div></h3>
-          <div>   
+          <div className={styles.text}>   
             <div>From conceptualization to execution, I believe in the power of seamless functionality and elegant visual aesthetics. 
             </div>
             <div>Join me as we explore the fusion of code and creativity, 

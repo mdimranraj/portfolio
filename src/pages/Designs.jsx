@@ -10,7 +10,7 @@ const Designs = () => {
     <div className={styles.designs}>
         <div className={styles.nav}>
             <Link to="/"><button type="button" class="btn btn-secondary"> Back </button></Link>
-            <h2>Designs' Library</h2>
+            <h2>Showroom</h2>
             
         </div>
         

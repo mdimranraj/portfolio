@@ -5,11 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("../public/laptop.png");
-  background-repeat: no-repeat;
-  /* background-size:cover; */
-  background-position: 30% 40%;
+  
+  /* background-image: url("../public/laptop.png"); */
+  /* background-repeat: no-repeat; */
+  
+  /* background-position: 30% 40%; */
   color: #DDE6ED;
+
+ 
+
+  background: rgb(5,22,26);
+  background: -moz-linear-gradient(180deg, rgba(5,22,26,1) 5%, rgba(12,116,121,1) 27%, rgba(14,142,147,1) 42%, rgba(15,150,156,1) 48%, rgba(7,46,51,1) 79%, rgba(5,22,26,1) 96%);
+  background: -webkit-linear-gradient(180deg, rgba(5,22,26,1) 5%, rgba(12,116,121,1) 27%, rgba(14,142,147,1) 42%, rgba(15,150,156,1) 48%, rgba(7,46,51,1) 79%, rgba(5,22,26,1) 96%);
+  background: linear-gradient(180deg, rgba(5,22,26,1) 5%, rgba(12,116,121,1) 27%, rgba(14,142,147,1) 42%, rgba(15,150,156,1) 48%, rgba(7,46,51,1) 79%, rgba(5,22,26,1) 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#05161a",endColorstr="#05161a",GradientType=1);
+  
+ 
   
 }
 
