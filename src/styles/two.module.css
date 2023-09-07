@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+  
 }
 .photoDiv{
     display: flex;
@@ -19,9 +20,9 @@
     text-align: center;
 }
 .photo{
-    width: 100px;
+    width: 120px;
     height: 130px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .containerTwo{
     display: flex;
@@ -61,66 +62,6 @@
     padding: 10px;
 }
 
-
-/* Flip image css */
-
-/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flipBox {
-    background-color: transparent;
-    border-radius: 15px;
-    width: 100px;
-    height: 130px;
-
-    perspective: 1000px;
-  }
- 
-
-  /* This container is needed to position the front and back side */
-  .flipBoxInner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flipBox:hover .flipBoxInner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flipBoxFront, .flipBoxBack {
-    border-radius: 15px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flipBoxFront {
-    
-    background-color: transparent;
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flipBoxBack {
-    padding: 1.5rem;
-    display: inline-flex;
-    justify-content:center ;
-    align-items:center ;
-    background-color: dodgerblue;
-    color: white;
-    transform: rotateY(180deg);
-  }
-
-/* flip image ends  */
 
 
 @media (min-device-width: 900px) and (max-device-width: 1024px){

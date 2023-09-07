@@ -27,7 +27,40 @@ const Aboutme = () => {
                 </div>
             </div>
             <div className={styles.education}>
-                <h2>Education</h2>
+                <div className={styles.edHeading}><h2>Education</h2></div>
+                <div className={styles.school}>
+                    <img className={styles.edImg} src="./lpu.png" alt='lpu'/>
+                    <div className={styles.edDetails}>
+                        <h4>Lovely Professional University, Punjab</h4>
+                        <div><h5>B.Tech.</h5> <h6><b>( 2024 )</b></h6></div>
+                        <h6>CGPA : 8.57</h6>
+                    </div>
+                    <div className={styles.edCertificates}>
+
+                    </div>  
+                </div>
+                <div className={styles.school}>
+                    <img className={styles.edImg} src="./dps.png" alt='dps'/>
+                    <div className={styles.edDetails}>
+                        <h4>Delhi Public School, B.S. City</h4>
+                        <div><h5>Intermediate (+2)</h5> <h6><b>( 2019 )</b></h6></div>
+                        <h6>Score : 83%</h6>
+                    </div>
+                    <div className={styles.edCertificates}>
+                        
+                    </div>  
+                </div>
+                <div className={styles.school}>
+                    <img className={styles.edImg} src="./sxs.png" alt='sxs'/>
+                    <div className={styles.edDetails}>
+                        <h4>St. Xavier's School, Hazaribag</h4>
+                        <div><h5>Matriculation</h5> <h6><b>( 2017 )</b></h6></div>
+                        <h6>CGPA : 10</h6>
+                    </div>
+                    <div className={styles.edCertificates}>
+                        
+                    </div>  
+                </div>
 
             </div>
             <div className={styles.skills}>

@@ -32,6 +32,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    gap: 20px;
 }
 
 .introDiv{
@@ -76,11 +77,40 @@
     width: 100%;
     padding: 10px;
     display: flex;
+    gap: 20px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     border-radius: 20px;
     box-shadow: -1px 2px 2px #616161;
+}
+.edHeading{
+    margin: 0 auto;
+}
+.school{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 24px;
+
+}
+
+.edDetails div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.edDetails div h5{
+    min-width: 200px ;
+}
+.edImg{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
 }
 .skills{
     min-height: 300px;
