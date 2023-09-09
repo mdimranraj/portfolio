@@ -2,14 +2,15 @@ import React from 'react'
 import styles from '../styles/designs.module.css'
 import Card from '../components/Card'
 import designlinks from '../data/designlinks'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 const Designs = () => {
+  const navigate = useNavigate()
   return (
     <div className={styles.designs}>
         <div className={styles.nav}>
-            <Link to="/"><button type="button" class="btn btn-secondary"> Back </button></Link>
+            <button onClick={()=>navigate(-1)} type="button" class="btn btn-secondary"> Back </button>
             <h2>Showroom</h2>
             
         </div>

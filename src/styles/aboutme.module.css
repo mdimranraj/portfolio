@@ -34,43 +34,46 @@
     align-items: center;
     gap: 20px;
 }
-
-.introDiv{
+.firstContainer{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     gap: 10px;
-    min-height: 300px;
-
 }
-.introLeft{
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    flex-wrap: wrap;
+.leftContainer{
     width: 70%;
-    border-radius: 20px;
-    box-shadow: -1px 2px 2px #616161;
-    min-height: 300px;
 }
-.introRight{
-    width: 30%;
-    min-height: 300px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: -1px 2px 2px #616161;
+.introduction{
+    padding: 20px 0;
+    font-size: 1rem;
 }
 
-.introRight img{
-    width: 150px;
-    height: 200px;
-    border-radius: 20px;
+.buttonGrp{
+    display: flex;
+    
+    align-items: center;
+    gap: 20px;
 }
+.buttonGrp button{
+    min-width: 150px; ;
+}
+.btn1{
+    background-color: #072E33;
+    color: #DDE6ED;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+.btn2{
+    background-color: #294D61;
+    color:#DDE6ED;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
 
 .education{
     min-height: 300px;
@@ -84,33 +87,16 @@
     border-radius: 20px;
     box-shadow: -1px 2px 2px #616161;
 }
+
 .edHeading{
     margin: 0 auto;
 }
-.school{
+.edContent{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
     flex-wrap: wrap;
-    text-align: left;
-    gap: 24px;
-
-}
-
-.edDetails div{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 30px;
-}
-.edDetails div h5{
-    min-width: 200px ;
-}
-.edImg{
-    width: 250px;
-    height: 150px;
-    border-radius: 10px;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
 }
 .skills{
     min-height: 300px;
@@ -118,10 +104,26 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    gap: 20px;
     border-radius: 20px;
     box-shadow: -1px 2px 2px #616161;
+}
+.skills h2{
+    margin: 0 auto;
+}
+.skillsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.skillsContainer img{
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+.humanLang div, .machineLang div, .webTech div, .tools div, .libraries div{
+    margin: 5px 0;
 }
 .certificates{
     min-height: 300px;

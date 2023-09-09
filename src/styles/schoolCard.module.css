@@ -1,0 +1,153 @@
+/* 
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imageDiv img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+.contentDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+.courseYear{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.place{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.place img{
+    width: 20px;
+} */
+
+  .box {
+    background: transparent;
+    border-radius: 10px 10px 0 0;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-areas: 
+    "one two"
+    "three four"
+    "five  six";
+    overflow: hidden;
+  }
+  .box:hover{
+    .boxImage img{
+        transform: scale(1.2);
+        transition: transform 0.5s ease;
+
+    }
+  }
+  
+  .boxIcon{
+    background-color: aliceblue;
+  }
+  .boxIcon img{
+    grid-area: one;
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+  }
+  
+  .boxLabel {
+    background-color: aliceblue;
+    grid-area: two;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 0.125em;
+    font-weight: 500;
+  }
+  
+  .boxTitle {
+    background-color: aliceblue;
+    grid-area: three;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    writing-mode: vertical-rl;
+    text-orientation:sideways;
+    transform: rotate(-180deg);
+    font-size: 12px;
+    color: black;
+    padding-top: 8px;
+    border-radius: 0 10px 0 0;
+  }
+  .boxTitle img{
+    transform: rotate(90deg);
+    width: 20px;
+    height: 20px;
+  }
+  .boxImage {
+    background-color:aliceblue;
+    grid-area: four;
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .boxImage img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px 0 0 0;
+    transform: scale(1);
+    transition: transform 0.5s ease-out;
+  }
+  .empty{
+    grid-area: five;
+    background-color: transparent;
+  }
+  .details{
+    background-color: aliceblue;
+    color: black;
+    grid-area: six;
+    border-radius: 0 0 0 10px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .courseScore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .course{
+    font-size: 0.8rem;
+  }
+  .score{
+    font-size: 0.9rem;
+  }
+  .score span{
+    font-size: 1rem !important;
+    font-weight: 500;
+  }
+  .year{
+    font-weight: 300;
+  }
+  

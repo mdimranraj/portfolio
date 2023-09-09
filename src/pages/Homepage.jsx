@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import styles from '../styles/homepage.module.css';
 import One from '../components/One';
 import Two from '../components/Two';
 import Four from '../components/Four';
 import Three from '../components/Three';
-import { Link } from 'react-router-dom';
+
 
 const Homepage = () => {
   return (
