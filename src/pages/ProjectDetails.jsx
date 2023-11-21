@@ -2,6 +2,7 @@ import React from 'react'
 import {useParams, useNavigate} from 'react-router-dom'
 import styles from '../styles/projectDetails.module.css'
 import designlinks from '../data/designlinks'
+import Footer from '../components/Footer'
 
 const ProjectDetails = () => {
   const { id } = useParams();
@@ -52,6 +53,8 @@ const ProjectDetails = () => {
                 }
             </div>
         </div>
+    
+        <Footer/>
     </div>
   )
 }
