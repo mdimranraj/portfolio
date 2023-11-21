@@ -1,14 +1,32 @@
+.heroContainerTop{
+    margin: 20px;
+}
+h2{
+    font-size: calc(1.325rem + .9vw);;
+}
+h5{
+    font-size: calc(0.9rem + .9vw);
+}
 .aboutme{
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    margin: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     min-height: 90vh;
     border-radius: 20px;
     box-shadow: 2px 2px 8px #ffffff;
     backdrop-filter: blur(15px);
+    font-size: 1rem;
+}
+
+hr{
+    width: 100%;
+    border-top-style: dotted;
+    border-color: lightgrey;
+    border-width: 15px;
+    width: 30%;
 }
 .nav{
     display: flex;
@@ -33,6 +51,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
+    
 }
 .firstContainer{
     display: flex;
@@ -41,7 +60,15 @@
     gap: 10px;
 }
 .leftContainer{
-    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.rightContainer img{
+    width: 20rem;
+    aspect-ratio: 1.8/3;
+    
 }
 .introduction{
     padding: 20px 0;
@@ -50,30 +77,54 @@
 
 .buttonGrp{
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
-.buttonGrp button{
-    min-width: 150px; ;
+
+.buttonOneDiv div, .buttonTwoDiv div, .buttonThreeDiv div {
+    overflow: hidden;
 }
-.btn1{
-    background-color: #072E33;
+.buttonOneDiv, .buttonTwoDiv, .buttonThreeDiv{
+    width: 150px !important;
+    border-radius: 10px 10px 0 0 ;
+    overflow: hidden;
+}
+.buttonOneDiv:hover, .buttonTwoDiv:hover, .buttonThreeDiv:hover{
+    .brochure{
+        transform: scale(1.2);
+    }
+    .btn1,.btn2,.btn3{
+        background-image: linear-gradient(to bottom right,#EADBC8,#AEC3AE , #176B87);
+        color: #072E33;
+    }
+}
+.brochure{
+    width: 100%;
+    height: 150px;
+    transform: scale(1);
+    transition: transform 0.5s ease-out;
+}
+.btn1,.btn2,.btn3{
+    min-width: 150px; 
     color: #DDE6ED;
     letter-spacing: 1px;
     border: none;
     font-size: 0.8rem;
     padding: 10px;
+    border-radius: 0 0 10px 10px;
 }
-.btn2{
-    background-color: #294D61;
-    color:#DDE6ED;
-    letter-spacing: 1px;
-    border: none;
-    font-size: 0.8rem;
-    padding: 10px;
+.btn1{
+    background-color: #072E33;
 }
 
+.btn2{
+    background-color: #294D61;   
+}
+.btn3{
+    background-color: #072E33;
+}
 
 .education{
     min-height: 300px;
@@ -84,8 +135,6 @@
     flex-direction: column;
     align-items: flex-start;
     text-align: center;
-    border-radius: 20px;
-    box-shadow: -1px 2px 2px #616161;
 }
 
 .edHeading{
@@ -104,9 +153,7 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    border-radius: 20px;
-    box-shadow: -1px 2px 2px #616161;
+    gap: 20px; 
 }
 .skills h2{
     margin: 0 auto;
@@ -116,6 +163,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
+    font-size: 1rem;
 }
 .skillsContainer img{
     width: 20px;
@@ -125,15 +173,113 @@
 .humanLang div, .machineLang div, .webTech div, .tools div, .libraries div{
     margin: 5px 0;
 }
-.certificates{
-    min-height: 300px;
-    width: 100%;
-    padding: 10px;
+
+.featuredWorks{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: -1px 2px 2px #616161;
+    gap: 20px;
 }
+.featuredWorks div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.featuredTitle{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center ;
+}
+
+
+
+.lastCard{
+    min-width: fit-content; 
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+
+@media (max-device-width: 1023px){
+    .introduction{
+        padding: 20px 0;
+        font-size: 0.9rem;
+    }
+
+    .skillsContainer{
+        justify-content: space-evenly;
+    }
+    
+}
+@media (max-device-width: 900px){
+    .rightContainer img{
+        width: 15rem; 
+    }
+    .firstContainer{
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .buttonOneDiv,.buttonTwoDiv,.buttonThreeDiv{
+        width: 120px !important;
+    }
+    .brochure{
+        height: 120px;
+    }
+    .buttonGrp{
+        gap: 10px;
+    }
+    .btn1,.btn2,.btn3{
+        min-width: 120px; ;
+        letter-spacing: 0.5px;
+        font-size: 0.7rem;
+        padding: 8px;
+    }
+}
+
+@media (max-device-width: 700px){
+    h2{
+        font-size: calc(0.9rem + .9vw);
+    }
+    h5{
+        font-size: calc(0.7rem + .9vw);
+    }
+    .rightContainer img{
+        width: 15rem;       
+    }
+    .firstContainer{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .introduction{
+        font-size: 0.7rem;
+    }
+    .buttonGrp{
+        justify-content: space-evenly;
+    }
+
+    .skillsContainer{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 30px;
+        font-size: 0.7rem;
+    }
+    .edContent{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .lastCard{
+        min-width: fit-content; 
+        position: absolute;
+        right: 0;
+    }
+}
+
+
+
 
