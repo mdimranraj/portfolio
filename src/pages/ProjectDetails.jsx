@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link,useParams, useNavigate} from 'react-router-dom'
+import {useParams, useNavigate} from 'react-router-dom'
 import styles from '../styles/projectDetails.module.css'
 import designlinks from '../data/designlinks'
 
@@ -22,7 +22,13 @@ const ProjectDetails = () => {
         <div className={styles.mainContainer}>
             <div className={styles.images}>
     
-                {project.images.map(image => <div className={styles.imgHolder}><div className={styles.loading}>Loading...</div><img src={image} alt={project.title}/></div>)}
+                {
+                project.images.map(image =>
+                     <div className={styles.imgHolder}>
+                        <div className={styles.loading}>Loading...</div>
+                        <img src={image} alt={project.title}/>
+                     </div>)
+                }
                 
             </div>
             <div className={styles.about}>
