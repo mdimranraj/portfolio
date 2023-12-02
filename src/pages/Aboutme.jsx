@@ -120,9 +120,13 @@ const Aboutme = () => {
                 <div className={styles.education}>
                         <div className={styles.edHeading}><h2>Education</h2></div>
                         <div className={styles.edContent}>
-                            <SchoolCard schoolData={schoolData[0]} />
-                            <SchoolCard schoolData={schoolData[1]} />
-                            <SchoolCard schoolData={schoolData[2]} />
+                            <div ><SchoolCard schoolData={schoolData[0]} /></div>
+                            <div ><SchoolCard schoolData={schoolData[1]} /></div>
+                            <div ><SchoolCard schoolData={schoolData[2]} /></div>
+
+                            {/* <SchoolCard schoolData={schoolData[0]} /> */}
+                            {/* <SchoolCard schoolData={schoolData[1]} /> */}
+                            {/* <SchoolCard schoolData={schoolData[2]} /> */}
                         </div>
                 </div>
 

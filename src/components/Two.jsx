@@ -14,7 +14,7 @@ const Two = () => {
             
             <div className={styles.buttonGrp}>
               <Link to="/aboutme"><button className={`${styles.btn1} btn btn-info`} type="button" >Get to know me</button></Link>
-              <a target="_blank" href='https://drive.google.com/uc?export=download&id=1zSfliRZIFlZOHW-WBdEKykV1txXAPn68' download='ImranResume.pdf'>
+              <a target="_blank" href='https://drive.google.com/uc?export=download&id=1YBvV0N7drnmp-q1bJjMVUJ4JlJUMPuDw' download='ImranResume.pdf'>
                 <button className={`${styles.btn2} btn btn-info`} type="button" >Download Resume</button>
               </a>
             </div>

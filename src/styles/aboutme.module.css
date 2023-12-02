@@ -269,9 +269,15 @@ hr{
         font-size: 0.7rem;
     }
     .edContent{
-        flex-direction: column;
+        /* flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-between; */
+
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 80vw;
+        justify-content: flex-start;
+        
     }
     .lastCard{
         min-width: fit-content; 
