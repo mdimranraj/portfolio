@@ -6,8 +6,10 @@ import schoolData from '../data/schoolData'
 import Card from '../components/Card'
 import designlinks from '../data/designlinks'
 import Footer from '../components/Footer'
+import useWindowDimensions from '../hooks/useWindowDimensions'
 
 const Aboutme = () => {
+    const { height, width } = useWindowDimensions();
   return (
     <div className={styles.heroContainerTop}>
         
@@ -136,8 +138,10 @@ const Aboutme = () => {
                     <div className={styles.featuredTitle}>
                         <h2>Featured Works </h2>
                         <div className={styles.lastCard}>
-                                <span>View All...</span>
+                            <Link to={`/designs`}>
+                                {width>500 && <span>View All </span>}
                                 <i className={"fa-solid fa-arrow-right fa-beat"}></i>
+                            </Link>
                         </div>
                     </div>
                     

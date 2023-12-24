@@ -68,6 +68,7 @@ hr{
 .rightContainer img{
     width: 20rem;
     aspect-ratio: 1.8/3;
+    /* filter: drop-shadow(0 0 1px #dedede); */
     
 }
 .introduction{
@@ -192,6 +193,9 @@ hr{
     flex-wrap: nowrap;
     align-items: center ;
 }
+.featuredTitle h2{
+    margin: 0;
+}
 
 
 
@@ -200,6 +204,10 @@ hr{
     position: absolute;
     right: 0;
     margin-right: 20px;
+    
+}
+.lastCard a{
+    color: #cbe4de;
 }
 
 
