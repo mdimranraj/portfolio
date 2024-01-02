@@ -103,7 +103,7 @@ const designlinks = [
         featured: true,
         image:"mircakes.png",
         link:"https://mdimranraj.github.io/Cake-Design-Suggestor/",
-        images:[],
+        images:["https://drive.google.com/uc?export=download&id=1yw9f21nM01XPEMgwoQSxnmJJ3P7_xG6x","https://drive.google.com/uc?export=download&id=14cJc8p0lBw4jWzSe_9bovFlRGYN2dAyi","https://drive.google.com/uc?export=download&id=1zHN6DE0V-dcsSk5Xtn3CdRpngul96naX","https://drive.google.com/uc?export=download&id=1EiV5UjLG7c7It7uexyKF91NIBzlY-5Pg","https://drive.google.com/uc?export=download&id=1bsFrCX28gSApB-r3jpOq1IvgD9x0y-15"],
         stack: ["HTML", "CSS", "JavaScript","Bootstrap"],
         libraries: ["Bootstrap"],
         content:{
@@ -117,7 +117,7 @@ const designlinks = [
         featured: false,
         image:"cassette.png",
         link:"https://cassette-azure.vercel.app/",
-        images:[],
+        images:["https://drive.google.com/uc?export=download&id=184bVo0fDwoWQ_cYcm4sv6B5U0Qkf2bWi","https://drive.google.com/uc?export=download&id=16nPOpR_v1Ujz6MxdtQJxkGTjhtFawoaK","https://drive.google.com/uc?export=download&id=1YNzldKSlB3ngWxd4hctiNd-JfqrlP2Oy","https://drive.google.com/uc?export=download&id=1QtvDS3rbd5zKw1deUV9Oxxn7anzBhyBH"],
         stack: ["HTML", "CSS", "JavaScript","Bootstrap","React"],
         libraries: ["Bootstrap","React-Router-DOM"],
         content:{
@@ -131,7 +131,7 @@ const designlinks = [
         featured: true,
         image:"cnlpu.png",
         link:"https://coding-ninjas-lpu.netlify.app",
-        images:[],
+        images:["https://drive.google.com/uc?export=download&id=1abKe5P_HYpO38RnYryaAFICsI73P4YJD","https://drive.google.com/uc?export=download&id=1sdcaBlBzw5t3O7OglbDFVvyHh90vbLyp","https://drive.google.com/uc?export=download&id=1oTKmvy5QV2edyobd6y6A4AlDj-zjqc-G","https://drive.google.com/uc?export=download&id=1LeLn4gxhxiPIs0UiaPTjEJof77ExCI8M","https://drive.google.com/uc?export=download&id=1NmEeJ0AkRIOGxFoTplg5c2jaqAPD1Zw3","https://drive.google.com/uc?export=download&id=1fXA72MJiwrBCD6WASkU8QjV7MY3ILfvf"],
         stack: ["HTML", "CSS", "JavaScript","Bootstrap"],
         libraries: ["Bootstrap","JQuery"],
         content:{
@@ -145,7 +145,7 @@ const designlinks = [
         featured: false,
         image:"sushruta.png",
         link:"https://mdimranraj.github.io/Sushruta",
-        images:[],
+        images:["https://drive.google.com/uc?export=download&id=1LBN6YvQIPs5Toew_GkxYWVpiNYZDPq38","https://drive.google.com/uc?export=download&id=1LiJnY01YRxWoBL8W9uVehQbwQQANVRWt","https://drive.google.com/uc?export=download&id=127wND-rXnNLymRIOjwG4P54dYp0bEP_W","https://drive.google.com/uc?export=download&id=1zam_QCPrmVOLtgwFyLTrOvPdeEFbfWB5","https://drive.google.com/uc?export=download&id=1Ni4RGVomM_FUM-immDRsFhdKX7hwPJ4F","https://drive.google.com/uc?export=download&id=1GQ1-5IicOzkfMrYb-yHDms8mbAie5z76","https://drive.google.com/uc?export=download&id=1fMM_jvUBZv6zTES4Vcfq0FDm7rYt4gdx","https://drive.google.com/uc?export=download&id=11srWDxry3P4GpVsbsfzWOXaZs31v3x90"],
         stack: ["HTML", "CSS", "JavaScript","Bootstrap"],
         libraries: ["Bootstrap"],
         content:{
@@ -159,7 +159,7 @@ const designlinks = [
         featured: false,
         image:"portfolio1.png",
         link:"https://mdimranraj.github.io/own-website/",
-        images:[],
+        images:["https://drive.google.com/uc?export=download&id=1eMNZSc8qh_XpYU2I8KZ4Tj3Kx48V9geS","https://drive.google.com/uc?export=download&id=1QHasLYoBk1Z9JycFlNjgP68uQTyZpi7v","https://drive.google.com/uc?export=download&id=1EQ-gtiibBpandZmcqCMuXqMmuMYksy9P","https://drive.google.com/uc?export=download&id=1h5H3L3UzuP-p_ifiRUJPhXUxZyXQ8mdj","https://drive.google.com/uc?export=download&id=1Dhcjq3apPSg6DrjFv8VYdMcn5NgBTHQT"],
         stack: ["HTML", "CSS", "JavaScript","Bootstrap"],
         libraries: ["Bootstrap"],
         content:{
@@ -173,7 +173,7 @@ const designlinks = [
         featured: false,
         image:"fitnessclub.png",
         link:"https://mdimranraj.github.io/fitness-club/",
-        images:[],
+        images:["https://drive.google.com/uc?export=download&id=1vCKKbb2zUwO4KgYHNY4g_p08DqwC6ZTb","https://drive.google.com/uc?export=download&id=1_WI5G2eRuphap2ITR9ygONJKzse-a1Vk","https://drive.google.com/uc?export=download&id=1Iou8YpGjxpTcoHzCZAUMQEa8q8yk7GPY","https://drive.google.com/uc?export=download&id=1eKe4KwCAV1MjyzbkUDqHKumGtf-N8Ijb","https://drive.google.com/uc?export=download&id=1d7YbdP2lS9vRHkWPNVGFOVOmbVOF4y0t","https://drive.google.com/uc?export=download&id=1uRefbM96kCNYfhGcye7qOSD6_BhkcOSD","https://drive.google.com/uc?export=download&id=1FjXDmT3SYSZDE56f3-CCi5jMtC0rcwGl"],
         stack: ["HTML", "CSS", "JavaScript"],
         libraries: null,
         content:{
