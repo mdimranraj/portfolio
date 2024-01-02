@@ -15,6 +15,34 @@ const designlinks = [
     },
     {
         id:"2",
+        featured: true,
+        title:"Ask Me",
+        image:"askme.png",
+        link:"http://askme.000.pe/",
+        stack: ["HTML", "CSS", "JavaScript","Bootstrap","PHP", "SQL"],
+        libraries: ["Bootstrap"],
+        images:["https://drive.google.com/uc?export=download&id=1N4r6KGekEzYul-50-uARSghX5vZJIgm-","https://drive.google.com/uc?export=download&id=1vJm4zoKun2ROXubBOCWz790CW2mdqQI5","https://drive.google.com/uc?export=download&id=1yKjQCy4QU6-6qP_K5LR_82Dwa4YOGRVL","https://drive.google.com/uc?export=download&id=14Dyrk_8a6OKx8-Wq3I_Oa6O1FbfKTMy_"],
+        content:{
+            overview: ["Ask me creates a platform for effective teaching and learning. A website to ask your doubts to your teachers directly. "],
+            details: ["Ask me gives you an anonymous way to clear your doubts. Ask your silly questions and have no fear of being mocked by your peers or teachers. Well you can also give your name if you want credit. "],
+        }
+    },
+    {
+        id:"3",
+        featured: true,
+        title:"Balaji Bakeries",
+        image:"balajibakeries.png",
+        link:"http://balaji-bakeries.42web.io",
+        stack: ["HTML", "CSS", "JavaScript","Bootstrap","PHP", "Laravel", "SQL"],
+        libraries: ["Bootstrap", "Stripe"],
+        images:["https://drive.google.com/uc?export=download&id=1NhbJxJkjUBrVKANVrobLcIKyyk9LiJkU","https://drive.google.com/uc?export=download&id=17un5osJN8to8j0k5y1hAQLDrh46yEWgB","https://drive.google.com/uc?export=download&id=1UffbIihL_GGB95cHFBNkHaysG73hibPx","https://drive.google.com/uc?export=download&id=1ntSRr37oHEHmvp-Snyhs-kgIiQRZbXgj","https://drive.google.com/uc?export=download&id=1WOlMrb43uyF0-4Tx30z2Y4Fnj46B-UvW","https://drive.google.com/uc?export=download&id=1z6X6zTCxjsQuAgvHSG76h2XHosMfra99","https://drive.google.com/uc?export=download&id=1Dvk1vqZYgFePCwWNraV5z9l72QxCQqN0","https://drive.google.com/uc?export=download&id=1J4SxZzjPb7FQ-sIp2eHilkcdOAciO8eu","https://drive.google.com/uc?export=download&id=1Ve8UpPWFvMM6IaRWgAioGmOn9njKmdux"],
+        content:{
+            overview: ["Balaji Bakeries is an online cakes and bakeries shop. It provides a variety of bakery items to be ordered online. "],
+            details: ["It uses an API by STRIPE for card payments. Cash on Delivery options are available."],
+        }
+    },
+    {
+        id:"4",
         title:"Visualise",
         featured: false,
         image:"visualise.png",
@@ -28,7 +56,7 @@ const designlinks = [
         }
     },
     {
-        id:"3",
+        id:"5",
         title:"Kanban Clone",
         featured: false,
         image:"kanban.png",
@@ -42,7 +70,7 @@ const designlinks = [
         }
     },
     {
-        id:"4",
+        id:"6",
         title:"Board",
         featured: true,
         image:"board.png",
@@ -56,7 +84,7 @@ const designlinks = [
         }
     },
     {
-        id:"5",
+        id:"7",
         title:"Leafy Leaks",
         featured: true,
         image:"leafyleaks.png",
@@ -70,7 +98,7 @@ const designlinks = [
         }
     },
     {
-        id:"6",
+        id:"8",
         title:"MIR Cakes",
         featured: true,
         image:"mircakes.png",
@@ -84,7 +112,7 @@ const designlinks = [
         }
     },
     {
-        id:"7",
+        id:"9",
         title:"Cassette",
         featured: false,
         image:"cassette.png",
@@ -98,7 +126,7 @@ const designlinks = [
         }
     },
     {
-        id:"8",
+        id:"10",
         title:"Coding Ninjas LPU",
         featured: true,
         image:"cnlpu.png",
@@ -112,7 +140,7 @@ const designlinks = [
         }
     },
     {
-        id:"9",
+        id:"11",
         title:"Sushruta",
         featured: false,
         image:"sushruta.png",
@@ -126,7 +154,7 @@ const designlinks = [
         }
     },
     {
-        id:"10",
+        id:"12",
         title:"Portfolio Part 1",
         featured: false,
         image:"portfolio1.png",
@@ -140,7 +168,7 @@ const designlinks = [
         }
     },
     {
-        id:"11",
+        id:"13",
         title:"Fitness Club",
         featured: false,
         image:"fitnessclub.png",
