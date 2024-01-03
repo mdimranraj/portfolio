@@ -40,7 +40,7 @@ const Aboutme = () => {
                                     <button className={`${styles.btn1} btn btn-info`} type="button" >Project Showroom</button>
                                 </div>
                             </Link>
-                            <a target="_blank" href='https://drive.google.com/uc?export=download&id=1zSfliRZIFlZOHW-WBdEKykV1txXAPn68' download='ImranResume.pdf'>
+                            <a target="_blank" href='https://drive.google.com/uc?export=download&id=1YBvV0N7drnmp-q1bJjMVUJ4JlJUMPuDw' download='ImranResume.pdf'>
                                 <div className={styles.buttonTwoDiv}>
                                     <div><img className={styles.brochure} src='./resume.png'></img></div> 
                                     <button className={`${styles.btn2} btn btn-info`} type="button" >Download Resume</button>
