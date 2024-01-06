@@ -22,11 +22,10 @@ h5{
 }
 
 hr{
-    width: 100%;
-    border-top-style: dotted;
+    border-top-style: dashed;
     border-color: lightgrey;
-    border-width: 15px;
-    width: 30%;
+    border-width: 5px;
+    width: 50%;
 }
 .nav{
     display: flex;
@@ -249,13 +248,6 @@ hr{
 }
 
 @media (max-device-width: 700px){
-    hr{
-        width: 100%;
-        border-top-style: dotted;
-        border-color: lightgrey;
-        border-width: 8px;
-        width: 30%;
-    }
     h2{
         font-size: calc(0.9rem + .9vw);
     }
