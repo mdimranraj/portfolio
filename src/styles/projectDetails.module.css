@@ -1,20 +1,25 @@
+.heroContainer{
+    margin: 20px;
+    width: 95%;
+}
 .container{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 95%;
-    margin: 20px;
+    width: 100%;
     padding: 20px;
     min-height: 90vh;
     border-radius: 20px;
     box-shadow: 2px 2px 8px #ffffff;
     backdrop-filter: blur(15px);
+    margin-bottom: 20px;
+    /* margin: 0 20px 20px; */
 }
 .nav{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 .nav h2{
@@ -34,8 +39,8 @@
     justify-content: space-between;
     align-items: center;
     overflow-x: auto;
-
     margin: 20px 0;
+    padding-bottom: 16px;
 }
 .images img{
     width: 100%; 
@@ -71,6 +76,15 @@
 
 .mainContainer{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 16px;
+}
+.belowCarousel{
+    display: flex;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;

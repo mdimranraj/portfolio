@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 const Designs = () => {
   const navigate = useNavigate()
   return (
-    <div className={styles.mainContainer}>
+    <div className={styles.heroContainer}>
     <div className={styles.designs}>
         <div className={styles.nav}>
             <button onClick={()=>navigate(-1)} type="button" class="btn btn-secondary"> Back </button>

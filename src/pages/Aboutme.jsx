@@ -90,7 +90,6 @@ const Aboutme = () => {
                             <div><img src='./logo/react.png' alt='react' />React</div>
                             <div><img src='./logo/php.png' alt='php' />PHP</div>
                             <div><img src='./logo/laravel.png' alt='laravel' />Laravel</div>
-                            <div><img src='./logo/angular.png' alt='angular' />Angular</div>
                             <div><img src='./logo/mongodb.png' alt='mongodb' />MongoDB</div>
                             <div><img src='./logo/node.png' alt='node' />Node</div>
 
@@ -102,7 +101,6 @@ const Aboutme = () => {
                             <div><img src='./logo/jquery.png' alt='jquery' />Jquery</div>
                             <div><img src='./logo/mongoose.png' alt='mongoose' />Mongoose</div>
                             <div><img src='./logo/react.png' alt='react' />React</div>
-                            <div><img src='./logo/angular.png' alt='angular' />Angular</div>
                             <div><img src='./logo/laravel.png' alt='laravel' />Laravel</div>
 
                         </div>
